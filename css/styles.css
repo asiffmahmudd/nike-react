@@ -1,0 +1,53 @@
+.logo{
+	width: 200px;
+}
+
+header, .banner{
+	background: #faf8e3;
+}
+
+.d-flex{
+	align-items: center;
+}
+
+.card, .card-img-top, form{
+	border-radius: 15px;
+}
+
+.card button{
+	display: block !important;
+	margin: 0 auto;
+}
+
+.banner-text h1{
+	font-size: 3.5rem;
+}
+
+@media (max-width: 765px){
+	.d-flex{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+
+	.section-title{
+		text-align: center;
+	}
+}
+
+@media (max-width: 577px){
+
+	.card{
+		margin: 50px 0px;
+	}
+
+	.icon-section .card-body{
+		text-align: center;
+	}
+
+	.icon-section .card-body img{
+		width: 150px;
+		display: block;
+		margin: 0 auto;
+	}
+}
